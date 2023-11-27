@@ -87,45 +87,7 @@
   📦 Projeto
 </h1>
 
-Projeto construído com base no curso de React Avançado do Willian Justen.
-Esse boilerplate visa facilitar a construção de novos projetos.
-
-<br>
-
-<h1>
-  <a id="requisites"></a>
-  📝 Requisitos
-</h1>
-
-Para executar esse projeto é necessário ter o **Node.js** e **NPM** ou **Yarn** instalados em seu computador:
-
-- [Node.js](https://nodejs.org/en/)
-- [NPM](https://npmjs.com/get-npm)
-- [Yarn](https://yarnpkg.com/getting-started)
-
-### Verificar os requisitos
-
-Para verificar se você tem o Node.js instalado, execute este comando em seu terminal:
-
-```bash
-node -v
-```
-
-Para confirmar que o npm está instalado, você pode executar este comando no seu terminal:
-
-```bash
-npm -v
-# ou
-yarn -v
-```
-
-> 📌 **Nota:**
->
-> - Se os comandos não forem encontrados, reinicie o terminal.
->
-> - Se ainda não funcionar, verifique se o caminho onde o _Node.js_ foi instalado, encontra-se nas variáveis de ambiente do seu sistema operacional, se não estiver, insira-o e reinicie o terminal novamente.
->
-> - Em último caso, reinstale o _Node.js_.
+Boilerplate construido valendo-se de conhecimentos abstraído da comunidade Dev React.
 
 <br>
 
@@ -140,7 +102,7 @@ yarn -v
   ⚡ Tecnologias
 </h1>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Tecnologias do projeto:
 
 - [Node.js](https://nodejs.org)
 - [Next.js](https://nextjs.org)
@@ -164,59 +126,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 <br>
 
 <h1>
-  <a id="clone"></a>
-  📥 Clonando
-</h1>
-
-
-Para iniciar o projeto em seu computador, primeiramente é necessário `clonar` esse repositório.
-Para isso, abra o seu terminal, navegue até a pasta onde deseja manter o projeto baixado.
-Após, digite o seguinte comando:
-
-```bash
-git clone https://github.com/nicolas-justin/react-avancado-boilerplate.git
-```
-
-<br>
-
-Feito o download, iniciaremos o projeto.
-Navegue até a pasta `react-avancado-boilerplate`:
-
-```bash
-cd react-avancado-boilerplate
-```
-
-Agora iremos instalar as dependências do projeto, com o seguinte comando:
-
-```bash
-npm install
-# ou
-yarn
-```
-
-Após baixado as dependências, iremos iniciar o servidor executando:
-
-```bash
-npm start
-# ou
-yarn start
-```
-
-Pronto!
-
-<br>
-
-<p align="right">
-  <a href="#readme" title="Voltar ao topo">⬆ Voltar ao topo</a>
-</p>
-
-<br>
-
-<h1>
   <a id="commands"></a>
   ⌨️ Comandos
 </h1>
 
+    "test:ci": "jest --runInBand",
+    "generate": "yarn plop --plopfile generators/plopfile.ts",
+    "storybook": "start-storybook -s public -p 6006",
+    "build-storybook": "build-storybook -s public",
+    "postinstall": "husky install",
+    "prepare": "husky install"
 - `dev`: executa a aplicação no endereço `localhost:3000`
 - `build`: constrói a versão da aplicação otimizada para produção
 - `start`: inicia um servidor simples da aplicação com a versão otimizada para produção
@@ -225,30 +144,7 @@ Pronto!
 - `test:watch`: executa o Jest em "watch mode"
 - `storybook`: executa o Storybook no endereço `localhost:6006`
 - `build-storybook`: constrói a versão do Storybook otimizada para produção
-
-<br>
-
-<p align="right">
-  <a href="#readme" title="Voltar ao topo">⬆ Voltar ao topo</a>
-</p>
-
-<br>
-
-<h1>
-  <a id="contribute"></a>
-  💡 Contribuindo
-</h1>
-
-Siga os passos abaixo para contribuir com a melhoria do projeto:
-
-- Faça um _fork_ desse repositório;
-- Crie uma _branch_ com a sua _feature_: `git checkout -b sua-feature`;
-- Faça _commit_ das suas alterações: `git commit -m "Feature: Descrição da sua feature."`;
-- Faça _push_ para a sua _branch_: `git push origin sua-feature`;
-
-> 📌 **Nota:**
->
-> - Após o _merge_ de seu _pull request_, não esqueça de **deletar** a sua _branch_.
+- `generate`: cria pasta para um novo componente baseado em um pattern pré estabelecido
 
 <br>
 
@@ -278,7 +174,7 @@ Para mais detalhes, consulte o arquivo [LICENSE](LICENSE.md).
 
 <p align="center">
   <a
-    href="https://linkedin.com/in/nicolas-justin">
+    href="https://www.linkedin.com/in/juan-rodrigues-maciel/">
     <img
       src=".github/linkedin.svg"
       alt="LinkedIn"
@@ -288,17 +184,7 @@ Para mais detalhes, consulte o arquivo [LICENSE](LICENSE.md).
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a
-    href="https://twitter.com/onicolasjustin">
-    <img
-      src=".github/twitter.svg"
-      alt="Twitter"
-      height="32"
-      width="32"
-    />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a
-    href="https://t.me/nicolasjustin">
+    href="https://github.com/BigJuanRodriguesMaciel/">
     <img
       src=".github/telegram.svg"
       alt="Telegram"
@@ -306,8 +192,4 @@ Para mais detalhes, consulte o arquivo [LICENSE](LICENSE.md).
       width="32"
     />
   </a>
-</p>
-
-<p align="center">
-  Construído com ❤️ por <a href="https://github.com/nicolas-justin">Nícolas Justin</a>
 </p>
