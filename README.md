@@ -1,71 +1,64 @@
 <h1 align="center">
   <img
-    alt="Imagem de um átomo com a palavra React Avançado escrito ao seu lado direito."
+    alt="Imagem de um átomo com a palavra React escrito ao seu lado direito."
     src=".github/atom.svg"
     width="150px"
   />
 </h1>
 
-<h2 align="center">React Avançado</h2>
+<h2 align="center">React Boilerplate</h2>
 
 <p align="center">
   <img
-    src="https://img.shields.io/github/languages/count/nicolas-justin/react-avancado-boilerplate"
+    src="https://img.shields.io/github/languages/count/BigJuanRodriguesMaciel/react-boiler-plate"
     alt="Languages count"
   />
   <img
-    src="https://img.shields.io/github/repo-size/nicolas-justin/react-avancado-boilerplate"
+    src="https://img.shields.io/github/repo-size/BigJuanRodriguesMaciel/react-boiler-plate"
     alt="Repository size"
   />
   <a
-    href="https://github.com/nicolas-justin/react-avancado-boilerplate/issues">
+    href="https://github.com/BigJuanRodriguesMaciel/react-boiler-plate/issues">
     <img
-      src="https://img.shields.io/github/issues/nicolas-justin/react-avancado-boilerplate"
+      src="https://img.shields.io/github/issues/BigJuanRodriguesMaciel/react-boiler-plate"
       alt="Open issues"
     />
   </a>
   <a
-    href="https://github.com/nicolas-justin/react-avancado-boilerplate/pulls">
+    href="https://github.com/BigJuanRodriguesMaciel/react-boiler-plate/pulls">
     <img
-      src="https://img.shields.io/github/issues-pr/nicolas-justin/react-avancado-boilerplate"
+      src="https://img.shields.io/github/issues-pr/BigJuanRodriguesMaciel/react-boiler-plate"
       alt="Open pull requests"
     />
   </a>
   <a
-    href="https://github.com/nicolas-justin/react-avancado-boilerplate/commits/master">
+    href="https://github.com/BigJuanRodriguesMaciel/react-boiler-plate/commits/master">
     <img
-      src="https://img.shields.io/github/last-commit/nicolas-justin/react-avancado-boilerplate"
+      src="https://img.shields.io/github/last-commit/BigJuanRodriguesMaciel/react-boiler-plate"
       alt="Last commit"
     />
   </a>
   <a
-    href="https://github.com/nicolas-justin/react-avancado-boilerplate/actions?query=workflow%3Aci">
+    href="https://github.com/BigJuanRodriguesMaciel/react-boiler-plate/actions?query=workflow%3Aci">
     <img
-      src="https://img.shields.io/github/workflow/status/nicolas-justin/react-avancado-boilerplate/ci"
+      src="https://img.shields.io/github/workflow/status/BigJuanRodriguesMaciel/react-boiler-plate/ci"
       alt="Workflow build"
     />
   </a>
   <a
     href="LICENSE.md">
     <img
-      src="https://img.shields.io/github/license/nicolas-justin/react-avancado-boilerplate"
+      src="https://img.shields.io/github/license/BigJuanRodriguesMaciel/react-boiler-plate"
       alt="Project license"
     />
   </a>
 </p>
 
 <p align="center">
-  <a href="#project">Projeto</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#requisites">Requisitos</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs">Tecnologias</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#clone">Clonando</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#commands">Comandos</a>
-  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#contribute">Contribuindo</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">Licença</a>
 </p>
@@ -91,10 +84,6 @@ Boilerplate construido valendo-se de conhecimentos abstraído da comunidade Dev 
 
 <br>
 
-<p align="right">
-  <a href="#readme" title="Voltar ao topo">⬆ Voltar ao topo</a>
-</p>
-
 <br>
 
 <h1>
@@ -119,12 +108,6 @@ Tecnologias do projeto:
 
 <br>
 
-<p align="right">
-  <a href="#readme" title="Voltar ao topo">⬆ Voltar ao topo</a>
-</p>
-
-<br>
-
 <h1>
   <a id="commands"></a>
   ⌨️ Comandos
@@ -145,12 +128,6 @@ Tecnologias do projeto:
 - `storybook`: executa o Storybook no endereço `localhost:6006`
 - `build-storybook`: constrói a versão do Storybook otimizada para produção
 - `generate`: cria pasta para um novo componente baseado em um pattern pré estabelecido
-
-<br>
-
-<p align="right">
-  <a href="#readme" title="Voltar ao topo">⬆ Voltar ao topo</a>
-</p>
 
 <br>
 
